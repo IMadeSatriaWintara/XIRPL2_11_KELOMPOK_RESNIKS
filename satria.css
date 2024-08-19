@@ -1,0 +1,96 @@
+/* Basic styles for the container and overall layout */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-section {
+    margin-top: 20px;
+}
+
+.profile-columns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.profile-column {
+    flex: 1;
+    margin: 10px;
+    text-align: center;
+}
+
+.profile-column img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.toggle-button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.toggle-button:hover {
+    background-color: #0056b3;
+}
+
+.details {
+    display: none;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.details p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Styling for the identity tables */
+.details table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.details th, .details td {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.details th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.details tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.details tbody tr:hover {
+    background-color: #e2e2e2;
+}
+
+/* Footer styling */
+footer.social-media {
+    text-align: center;
+    margin-top: 20px;
+}
